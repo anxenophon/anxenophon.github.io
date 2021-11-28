@@ -14,13 +14,18 @@
   <header>
     <div class="container">
       <div class="header-left">
-        <img class="logo" src="img/logo/logo.png">
+        <a href="index.html"><img class="logo" src="img/logo/logo.png"></a>
       </div>
-      <span class="fa fa-bars menu-icon"></span>
       <div class="header-right">
-        <a href="contents/gear.html">買ったギア</a>
-        <a href="contents/site.html">キャンプ場</a>
-        <a href="contents/food.html">キャンプ飯</a>
+        <div class="hamburger-menu">
+          <input type="checkbox" id="menu_btn_check">
+          <label for="menu_btn_check" class="menu_btn"><span class="fa fa-bars menu-icon"></span></label>
+          <div class="menu_contents">
+            <a href="contents/gear.html">買ったギア</a>
+            <a href="contents/site.html">キャンプ場</a>
+            <a href="contents/food.html">キャンプ飯</a>
+          </div>
+        </div>
       </div>
     </div>
   </header>
@@ -57,7 +62,7 @@
       </div>
       <div class="contents">
         <div class="img_container">
-          <img src="img/food/rice.png">
+          <img src="img/food/rice_2.png">
         </div>
         <div class="contents-text">
           <a href="contents/food.html">
